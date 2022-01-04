@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "plant_seed_classification"
+version = "1.0"
+description = "Deep Learning Model for Food 101 Classification"
+authors = ["Bowen"]
+
+[tool.poetry.dependencies]
+python = "~3.9.7"
+numpy = "*"
+pandas = "*"
+matplotlib = "3.3.2"
+sklearn = "*"
+tensorflow = "*" 
+opencv-python = "~4.4.0"
+seaborn = "*"
+
+[tool.poetry.dev-dependencies]
+black = "==19.3b0"
+pytest = "*"
